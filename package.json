@@ -1,0 +1,16 @@
+{
+  "name": "netlify-cms-widget-simple-uuid",
+  "version": "0.0.1",
+  "description": "A simple uuid, read-only, auto-generated widget",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Salvatore Formisano",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "react": "^16.11.0",
+    "uuid": "^3.3.3"
+  }
+}

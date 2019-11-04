@@ -1,15 +1,15 @@
-# Netlify CMS ID Widget
+# Netlify CMS Widget Simple UUID
 
 Instructions:
 
 1) Install the widget:
 ```
-npm i netlify-cms-widget-uuid
+npm i netlify-cms-widget-simple-uuid
 ```
 
 2) Import the widget in your main netlify cms file:
 ```
-import idWidget from 'netlify-cms-widget-uuid';
+import idWidget from 'netlify-cms-widget-simple-uuid';
 ```
 
 3) Register the widget like this:

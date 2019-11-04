@@ -1,6 +1,6 @@
 {
   "name": "netlify-cms-widget-simple-uuid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple uuid, read-only, auto-generated widget",
   "main": "index.js",
   "scripts": {

@@ -1,8 +1,6 @@
-import { createElement as h } from 'react';
-import createReactClass from 'create-react-class';
 import { v1 as uuidv1 } from 'uuid';
 
-const IdControl = createReactClass({
+const IdControl = createClass({
   componentDidMount: function () {
     const value = this.props.value ? this.props.value : uuidv1();
     this.props.onChange(value)
@@ -23,7 +21,7 @@ const IdControl = createReactClass({
   }
 });
 
-const IdPreview = createReactClass({
+const IdPreview = createClass({
   render: function() {
     return h('p', {}, this.props.value);
   }

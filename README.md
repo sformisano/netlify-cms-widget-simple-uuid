@@ -2,23 +2,19 @@
 
 Instructions:
 
-1) Install the widget:
-```
-npm i netlify-cms-widget-simple-uuid
-```
-
-2) Import the widget in your main netlify cms file:
-```
-import idWidget from 'netlify-cms-widget-simple-uuid';
-```
-
-3) Register the widget like this:
+1) Include the 'dist' in your source:
 
 ```
-CMS.registerWidget('id', idWidget.Control, idWidget.Preview);
+<script src="/static/js/netlify-cms-widget-simple-uuid.js"></script>
 ```
 
-4) Add the id field to your collection like this (the collection here is just an example):
+2) Register the widget like this:
+
+```
+CMS.registerWidget('id', IDWidget.default.IdControl, IDWidget.default.IdPreview);
+```
+
+3) Add the id field to your collection like this (the collection here is just an example):
 
 ```
 collections:

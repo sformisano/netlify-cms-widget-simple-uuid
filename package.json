@@ -4,13 +4,17 @@
   "description": "A simple uuid, read-only, auto-generated widget",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "browserify index.js -p esmify --standalone IDWidget > dist.js"
   },
   "author": "Salvatore Formisano",
   "license": "ISC",
+  "devDependencies": {
+    "browser-resolve": "^2.0.0",
+    "browserify": "^17.0.0",
+    "esmify": "^2.1.1"
+  },
   "dependencies": {
-    "create-react-class": "^15.6.3",
-    "react": "^16.11.0",
     "uuid": "^3.3.3"
   }
 }
